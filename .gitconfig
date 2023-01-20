@@ -2,4 +2,4 @@
 # this is how to spawn a shell command as a credential helper
 [credential "https://example.com"]
 	username = EXAMPLE
-	helper = "!shellsec -l <PLATFORM> | tr -d'\n'"
+	helper = "!f() { test \"$1\" = get && echo \"password=$(shellsec -l <PLATFORM> | tr -d '\n')\"; }; f"
