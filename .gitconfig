@@ -1,0 +1,5 @@
+# obviously not my full config
+# this is how to spawn a shell command as a credential helper
+[credential "https://example.com"]
+	username = EXAMPLE
+	helper = "!shellsec -l <PLATFORM> | tr -d'\n'"
