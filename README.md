@@ -14,6 +14,9 @@ Very annoying to lose these. Neovim & CoC tends to sometimes break because of no
 - [coc-clangd](https://github.com/clangd/coc-clangd)
 - [coc-sh](https://github.com/josa42/coc-sh)
 
+Others:
+- [Git credential docs](https://git-scm.com/docs/gitcredentials)
+
 
 ## Contributing
 Uh, sure, you can open issues to tell me how idiotic some stuff I have around here is. It might help me. I mostly don't really care how the configs look though.
