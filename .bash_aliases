@@ -11,3 +11,5 @@ alias open='xdg-open'
 alias catal='cat ~/.bash_aliases'
 alias edital='nvim ~/.bash_aliases'
 
+# git
+alias gits='git status -s'
