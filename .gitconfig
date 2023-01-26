@@ -1,5 +1,9 @@
-# obviously not my full config
+# timeout cache 2 hours (7200 seconds)
+# will use the next helper if nothing is in cache
+[credential]
+	helper = cache --timeout 7200  obviously not my full config
 # this is how to spawn a shell command as a credential helper
 [credential "https://example.com"]
 	username = EXAMPLE
 	helper = "!f() { test \"$1\" = get && echo \"password=$(shellsec -l <PLATFORM> | tr -d '\n')\"; }; f"
+
