@@ -16,6 +16,7 @@ Very annoying to lose these. Neovim & CoC tends to sometimes break because of no
 
 Others:
 - [Git credential docs](https://git-scm.com/docs/gitcredentials)
+- [Git credential cache](https://stackoverflow.com/questions/56377244/how-to-set-git-cache-timeout-for-long-period)
 
 
 ## Contributing
