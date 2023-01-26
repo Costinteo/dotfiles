@@ -1,7 +1,7 @@
 # timeout cache 2 hours (7200 seconds)
 # will use the next helper if nothing is in cache
 [credential]
-	helper = cache --timeout 7200  obviously not my full config
+	helper = cache --timeout 7200
 # this is how to spawn a shell command as a credential helper
 [credential "https://example.com"]
 	username = EXAMPLE
