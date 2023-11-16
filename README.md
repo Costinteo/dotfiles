@@ -17,6 +17,11 @@ Very annoying to lose these. Neovim & CoC tends to sometimes break because of no
 Others:
 - [Git credential docs](https://git-scm.com/docs/gitcredentials)
 - [Git credential cache](https://stackoverflow.com/questions/56377244/how-to-set-git-cache-timeout-for-long-period)
+- [Exporting and importing gnome-terminal profiles](https://unix.stackexchange.com/questions/448811/how-to-export-a-gnome-terminal-profile)
+```
+$ dconf dump /org/gnome/terminal/legacy/profiles:/ > gnome-terminal-profiles.dconf
+$ dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf
+```
 
 
 ## Contributing

@@ -1,0 +1,50 @@
+[/]
+default='cf23274b-041f-41f9-b9f9-e7613ba70159'
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', 'cf23274b-041f-41f9-b9f9-e7613ba70159', '1f5aab50-07b1-4def-af3b-3fb5e0646ed6']
+
+[:1f5aab50-07b1-4def-af3b-3fb5e0646ed6]
+audible-bell=false
+background-color='rgb(255,255,255)'
+background-transparency-percent=50
+bold-color-same-as-fg=true
+bold-is-bright=false
+cursor-background-color='rgb(0,0,0)'
+cursor-colors-set=true
+font='Ubuntu Mono 20'
+foreground-color='rgb(0,0,0)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(0,0,0)'
+palette=['rgb(46,52,54)', 'rgb(204,0,0)', 'rgb(78,154,6)', 'rgb(196,160,0)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=false
+visible-name='Whitepaper'
+
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(255,255,255)'
+background-transparency-percent=77
+bold-color-same-as-fg=true
+bold-is-bright=false
+cursor-colors-set=true
+font='Fira Mono 16'
+foreground-color='rgb(23,20,33)'
+highlight-colors-set=true
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+
+[:cf23274b-041f-41f9-b9f9-e7613ba70159]
+audible-bell=false
+background-transparency-percent=54
+bold-color-same-as-fg=true
+bold-is-bright=true
+cursor-colors-set=true
+font='Terminus Medium 13'
+highlight-colors-set=true
+palette=['rgb(46,52,54)', 'rgb(204,0,0)', 'rgb(78,154,6)', 'rgb(196,160,0)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='Terminus'
