@@ -1,0 +1,11 @@
+# -- Move Right/Up --
+# This is the general command that works with any number of workspaces:
+# "xdotool set_desktop $(expr $(expr $(xdotool get_desktop) + 1) % $(xdotool get_num_desktops))"
+"xdotool set_desktop $(expr $(expr $(xdotool get_desktop) + 1) % $(xdotool get_num_desktops))"
+    b:8
+# Mouse button 4
+
+# -- Move Left/Down --
+"xdotool set_desktop $(expr $(expr $(xdotool get_desktop) + $(expr $(xdotool get_num_desktops) - 1)) % $(xdotool get_num_desktops))"
+    b:9
+# Mouse button 5

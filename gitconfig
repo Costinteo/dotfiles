@@ -1,0 +1,11 @@
+[user]
+	email = 39965799+Costinteo@users.noreply.github.com
+	name = Costinteo
+[commit]
+	gpgsign = true
+[credential]
+	helper = cache --timeout 7200
+[credential "https://github.com"]
+	username = <REDACTED>
+	helper = "!f() { test \"$1\" = get && echo \"password=$(shellsec -l git | tr -d '\n')\"; }; f"
+
